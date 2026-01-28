@@ -1,10 +1,10 @@
-#ifndef ARRAY_FUNCTIONS_H
-#define ARRAY_FUNCTIONS_H
+#ifndef INCLUDE_ARRAY_FUNCTIONS_H_
+#define INCLUDE_ARRAY_FUNCTIONS_H_
 
 // Function to sort the array
-void sort_array(int *arr, int size);
+void SortArray(int *arr, int size);
 
 // Function to calculate the median
-double calculate_median(int *arr, int size);
+double CalculateMedian(int *arr, int size);
 
-#endif // ARRAY_FUNCTIONS_H
+#endif  // INCLUDE_ARRAY_FUNCTIONS_H_

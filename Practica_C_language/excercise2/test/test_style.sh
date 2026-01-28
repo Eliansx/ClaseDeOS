@@ -2,8 +2,8 @@
 
 # Define the source file to check
 SOURCE_FILE="../src/main.c"
-HEADER_FILE="../include/hello.h"
-FUNCTIONS_FILE="../src/hello.c"
+HEADER_FILE="../include/time_functions.h"
+FUNCTIONS_FILE="../src/time_functions.c"
 
 echo "--- Running static analysis with cpplint ---"
 ./cpplint.py --root=.. --filter=-whitespace/ending_newline,-runtime/threadsafe_fn,-build/include_subdir,-readability/copyright,-legal/copyright ${SOURCE_FILE} ${HEADER_FILE} ${FUNCTIONS_FILE} > cpplint_report.txt 2>&1

@@ -1,5 +1,5 @@
-#ifndef TIME_FUNCTIONS_H
-#define TIME_FUNCTIONS_H
+#ifndef INCLUDE_TIME_FUNCTIONS_H_
+#define INCLUDE_TIME_FUNCTIONS_H_
 
 // Define the structure for Time
 struct Time {
@@ -14,4 +14,4 @@ void PrintTime(struct Time t);
 // Function to get the current time from the user with validation
 struct Time GetTime();
 
-#endif // TIME_FUNCTIONS_H
+#endif  // INCLUDE_TIME_FUNCTIONS_H_

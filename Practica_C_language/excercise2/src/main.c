@@ -3,18 +3,18 @@
 
 int main() {
     // Declare and initialize the Time structure
-    struct Time currentTime = {15, 5, 32};
-    
+    struct Time current_time = {15, 5, 32};
+
     // Print initial time
     printf("Initial time: ");
-    PrintTime(currentTime);
-    
+    PrintTime(current_time);
+
     // Get updated time from the user
-    currentTime = GetTime();
-    
+    current_time = GetTime();
+
     // Print updated time
     printf("Updated time: ");
-    PrintTime(currentTime);
-    
+    PrintTime(current_time);
+
     return 0;
 }

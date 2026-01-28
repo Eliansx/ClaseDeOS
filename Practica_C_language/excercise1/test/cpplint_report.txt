@@ -1,8 +1,3 @@
-../include/hello.h:1:  #ifndef header guard has wrong style, please use: INCLUDE_HELLO_H_  [build/header_guard] [5]
-../include/hello.h:6:  #endif line should be "#endif  // INCLUDE_HELLO_H_"  [build/header_guard] [5]
-../include/hello.h:6:  At least two spaces is best between code and comments  [whitespace/comments] [2]
-../src/hello.c:6:  Variable name 'IndexForPrint' should be snake_case (e.g., my_var).  [readability/naming] [4]
-Done processing ../include/hello.h
-Done processing ../src/hello.c
+Done processing ../include/array_functions.h
+Done processing ../src/array_functions.c
 Done processing ../src/main.c
-Total errors found: 4

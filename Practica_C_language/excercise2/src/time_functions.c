@@ -10,22 +10,22 @@ void PrintTime(struct Time t) {
 // Function to get the current time from the user with validation
 struct Time GetTime() {
     struct Time t;
-    
+
     // Input hours, minutes, and seconds with validation
     do {
         printf("Enter hours (0-23): ");
         scanf("%d", &t.hours);
     } while (t.hours < 0 || t.hours > 23);
-    
+
     do {
         printf("Enter minutes (0-59): ");
         scanf("%d", &t.minutes);
     } while (t.minutes < 0 || t.minutes > 59);
-    
+
     do {
         printf("Enter seconds (0-59): ");
         scanf("%d", &t.seconds);
     } while (t.seconds < 0 || t.seconds > 59);
-    
+
     return t;
 }
