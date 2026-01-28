@@ -7,4 +7,4 @@ project(HelloWorld)
 # Include the current directory for header files
 include_directories(include)
 # Add the executable
-add_executable(MedianCalculator src/main.c src/array_functions.c) #aqui se añaden los archivos .c
+add_executable(MedianCalculator src/main.c src/array_functions.c) #aqui se añaden los archivos .cargv[toupper(2)] !=
