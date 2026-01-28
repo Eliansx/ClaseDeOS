@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/TimeApp.dir/src/main.c.o CMakeFiles/TimeApp.dir/src/time_functions.c.o -o TimeApp 

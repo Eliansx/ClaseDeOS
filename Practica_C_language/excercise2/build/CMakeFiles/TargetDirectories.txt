@@ -1,3 +1,3 @@
-/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles/hello_world.dir
-/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles/edit_cache.dir
-/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles/rebuild_cache.dir
+/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles/TimeApp.dir
+/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles/edit_cache.dir
+/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles/rebuild_cache.dir

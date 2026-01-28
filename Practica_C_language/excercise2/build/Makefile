@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1"
+CMAKE_SOURCE_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build"
+CMAKE_BINARY_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles" "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles" "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -117,48 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_world
+# Target rules for targets named TimeApp
 
 # Build rule for target.
-hello_world: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_world
-.PHONY : hello_world
+TimeApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TimeApp
+.PHONY : TimeApp
 
 # fast build rule for target.
-hello_world/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-.PHONY : hello_world/fast
-
-src/hello.o: src/hello.c.o
-.PHONY : src/hello.o
-
-# target to build an object file
-src/hello.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/hello.c.o
-.PHONY : src/hello.c.o
-
-src/hello.i: src/hello.c.i
-.PHONY : src/hello.i
-
-# target to preprocess a source file
-src/hello.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/hello.c.i
-.PHONY : src/hello.c.i
-
-src/hello.s: src/hello.c.s
-.PHONY : src/hello.s
-
-# target to generate assembly for a file
-src/hello.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/hello.c.s
-.PHONY : src/hello.c.s
+TimeApp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/build
+.PHONY : TimeApp/fast
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -166,7 +142,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -174,8 +150,32 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/time_functions.o: src/time_functions.c.o
+.PHONY : src/time_functions.o
+
+# target to build an object file
+src/time_functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/src/time_functions.c.o
+.PHONY : src/time_functions.c.o
+
+src/time_functions.i: src/time_functions.c.i
+.PHONY : src/time_functions.i
+
+# target to preprocess a source file
+src/time_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/src/time_functions.c.i
+.PHONY : src/time_functions.c.i
+
+src/time_functions.s: src/time_functions.c.s
+.PHONY : src/time_functions.s
+
+# target to generate assembly for a file
+src/time_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/src/time_functions.c.s
+.PHONY : src/time_functions.c.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello_world"
-	@echo "... src/hello.o"
-	@echo "... src/hello.i"
-	@echo "... src/hello.s"
+	@echo "... TimeApp"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/time_functions.o"
+	@echo "... src/time_functions.i"
+	@echo "... src/time_functions.s"
 .PHONY : help
 
 

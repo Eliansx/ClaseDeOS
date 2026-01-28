@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/include"
+C_INCLUDES = -I"/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/include"
 
 C_FLAGS = 
 

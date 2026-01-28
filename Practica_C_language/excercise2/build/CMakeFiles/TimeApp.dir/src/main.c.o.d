@@ -1,8 +1,6 @@
-CMakeFiles/hello_world.dir/src/hello.c.o: \
- /home/eliangraciano/Clase\ de\ OS/ClaseDeOS/Practica_C_language/excercise1/src/hello.c \
- /usr/include/stdc-predef.h \
- /home/eliangraciano/Clase\ de\ OS/ClaseDeOS/Practica_C_language/excercise1/src/../include/hello.h \
- /usr/include/stdio.h \
+CMakeFiles/TimeApp.dir/src/main.c.o: \
+ /home/eliangraciano/Clase\ de\ OS/ClaseDeOS/Practica_C_language/excercise2/src/main.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -25,4 +23,5 @@ CMakeFiles/hello_world.dir/src/hello.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /home/eliangraciano/Clase\ de\ OS/ClaseDeOS/Practica_C_language/excercise2/include/time_functions.h

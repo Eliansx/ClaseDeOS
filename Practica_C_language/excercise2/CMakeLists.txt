@@ -7,6 +7,6 @@ project(HelloWorld)
 # Include the current directory for header files
 include_directories(include)
 # Add the executable
-add_executable(hello_world
+add_executable(TimeApp
 src/main.c
-src/hello.c)
+src/time_functions.c)

@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1"
+CMAKE_SOURCE_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build"
+CMAKE_BINARY_DIR = "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hello_world.dir/all
+all: CMakeFiles/TimeApp.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hello_world.dir/clean
+clean: CMakeFiles/TimeApp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_world.dir
+# Target rules for target CMakeFiles/TimeApp.dir
 
 # All Build rule for target.
-CMakeFiles/hello_world.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles" --progress-num=1,2,3 "Built target hello_world"
-.PHONY : CMakeFiles/hello_world.dir/all
+CMakeFiles/TimeApp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles" --progress-num=1,2,3 "Built target TimeApp"
+.PHONY : CMakeFiles/TimeApp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_world.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_world.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/build/CMakeFiles" 0
-.PHONY : CMakeFiles/hello_world.dir/rule
+CMakeFiles/TimeApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TimeApp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/build/CMakeFiles" 0
+.PHONY : CMakeFiles/TimeApp.dir/rule
 
 # Convenience name for target.
-hello_world: CMakeFiles/hello_world.dir/rule
-.PHONY : hello_world
+TimeApp: CMakeFiles/TimeApp.dir/rule
+.PHONY : TimeApp
 
 # clean rule for target.
-CMakeFiles/hello_world.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/clean
-.PHONY : CMakeFiles/hello_world.dir/clean
+CMakeFiles/TimeApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeApp.dir/build.make CMakeFiles/TimeApp.dir/clean
+.PHONY : CMakeFiles/TimeApp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

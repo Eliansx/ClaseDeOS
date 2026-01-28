@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/src/hello.c" "CMakeFiles/hello_world.dir/src/hello.c.o" "gcc" "CMakeFiles/hello_world.dir/src/hello.c.o.d"
-  "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise1/src/main.c" "CMakeFiles/hello_world.dir/src/main.c.o" "gcc" "CMakeFiles/hello_world.dir/src/main.c.o.d"
+  "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/src/main.c" "CMakeFiles/TimeApp.dir/src/main.c.o" "gcc" "CMakeFiles/TimeApp.dir/src/main.c.o.d"
+  "/home/eliangraciano/Clase de OS/ClaseDeOS/Practica_C_language/excercise2/src/time_functions.c" "CMakeFiles/TimeApp.dir/src/time_functions.c.o" "gcc" "CMakeFiles/TimeApp.dir/src/time_functions.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
