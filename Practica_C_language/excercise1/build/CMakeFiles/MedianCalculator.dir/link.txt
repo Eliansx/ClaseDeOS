@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/MedianCalculator.dir/src/main.c.o CMakeFiles/MedianCalculator.dir/src/array_functions.c.o -o MedianCalculator 
